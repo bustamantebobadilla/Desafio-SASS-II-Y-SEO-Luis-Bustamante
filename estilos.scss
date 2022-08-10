@@ -6,14 +6,6 @@
 $texto:white;
 $fondo:#032656;
 $resaltado:rgba(255, 187, 0, 0.932);
-.navbar{
-    background-color: $fondo;
-    font-size: 30px;
-
-        a:hover{
-            color: $resaltado;
-    }
-}
 body{
     background-color: $fondo;
 }
@@ -158,4 +150,12 @@ position: center;
     width: 200px;
     height: 200px;
     padding-top: 150px;
+}
+.navbar{
+    background-color: $fondo;
+    font-size: 30px;
+
+        a:hover{
+            color: $resaltado;
+    }
 }
