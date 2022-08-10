@@ -90,7 +90,7 @@ footer textarea{
 .nleft-nosotros{
     height: auto;
 }
-.nright-nosotros{
+@mixin nright-nosotros{
     font-size: 30px;
     color: $texto;
 }
@@ -130,8 +130,7 @@ footer textarea{
 }
 }
 .nright-contacto{
-    font-size: 30px;
-    color: $texto;
+    @include nright.nosotros;
     height: 500px;
 
     img{
@@ -140,8 +139,7 @@ footer textarea{
 }
 }
 .agendar-parrafo{
-font-size: 30px;
-color: $texto;
+@include nright-nosotros;
 position: center;
 }
 .agendar{
